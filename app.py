@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, send_file
 import openai
+import os
 from docx import Document
 from docx.shared import Pt
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
